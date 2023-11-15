@@ -14,8 +14,8 @@ def index():
 @app.route("/about")
 def course():
     return render_template("about.html")
-    
-app.route("/today")
+
+@app.route("/today")
 def about():
     return render_template("today.html")
 
@@ -23,6 +23,6 @@ def about():
 def today():
     return render_template("account.html")
 
-@
-if __name__ == "__main__":
-	app.run()
+
+#if __name__ == "__main__":
+	#app.run()
